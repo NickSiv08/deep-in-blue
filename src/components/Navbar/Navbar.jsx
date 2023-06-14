@@ -14,6 +14,8 @@ const Navbar = () => {
     setActiveMenu(false)
   }, [pathname])
 
+  const highlightIfActive = (path) => (pathname === path ? true : false)
+
   return (
     <div className='mx-4 sm:mx-24 xl:mx-96'>
       <div className='flex flex-col gap-4 items-center'>
@@ -131,23 +133,51 @@ const Navbar = () => {
         )}
         <div className='hidden md:flex gap-8'>
           <Link to='/'>
-            <p className='text-sm hover:text-gray-600 tracking-widest'>Home</p>
+            <p
+              className={`text-sm hover:text-gray-600 pb-2 tracking-widest ${
+                highlightIfActive('/') && 'border-b-[1px] pb-2 border-black'
+              }`}
+            >
+              Home
+            </p>
           </Link>
           <Link to='/about'>
-            <p className='text-sm hover:text-gray-600 tracking-widest'>About</p>
+            <p
+              className={`text-sm hover:text-gray-600 tracking-widest ${
+                highlightIfActive('/about') &&
+                'border-b-[1px] pb-2 border-black'
+              }`}
+            >
+              About
+            </p>
           </Link>
           <Link to='/services'>
-            <p className='text-sm hover:text-gray-600 tracking-widest'>
+            <p
+              className={`text-sm hover:text-gray-600 tracking-widest ${
+                highlightIfActive('/services') &&
+                'border-b-[1px] pb-2 border-black'
+              }`}
+            >
               Services
             </p>
           </Link>
           <Link to='/videos'>
-            <p className='text-sm hover:text-gray-600 tracking-widest'>
+            <p
+              className={`text-sm hover:text-gray-600 tracking-widest ${
+                highlightIfActive('/videos') &&
+                'border-b-[1px] pb-2 border-black'
+              }`}
+            >
               Videos
             </p>
           </Link>
           <Link to='/contact'>
-            <p className='text-sm hover:text-gray-600 tracking-widest'>
+            <p
+              className={`text-sm hover:text-gray-600 tracking-widest ${
+                highlightIfActive('/contact') &&
+                'border-b-[1px] pb-2 border-black'
+              }`}
+            >
               Contact
             </p>
           </Link>

@@ -19,8 +19,8 @@ const About = () => {
           About Us
         </h1>
         <p className='text-sm md:text-lg font-extralight text-gray-700'>
-          “Deep in Blue” is a band consists of musicians that have been
-          performing for years in the island of Santorini. Each of us has an
+          “Deep in Blue” is a band that consists of musicians who have been
+          performing for years in the island of Santorini. Each of them has an
           individual solo career and has been influenced by classical studies
           and by the sounds of greek,mediterranean and balkan culture.
         </p>

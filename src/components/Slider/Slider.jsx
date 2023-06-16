@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import sliderImages from '../../constants/constants'
 import { motion, AnimatePresence } from 'framer-motion'
+import LazyLoad from 'react-lazy-load'
 
 const Slider = () => {
   const [image, setImage] = useState(0)
@@ -16,15 +17,17 @@ const Slider = () => {
   return (
     <div className='mt-16 border-[2px] border-black mx-4 sm:mx-24 xl:mx-96 w-[98%] md:w-[70%] lg:w-[60%] h-[100%]'>
       <AnimatePresence mode='wait'>
-        <motion.img
-          key={image}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 1 } }}
-          exit={{ opacity: 0, transition: { duration: 1 } }}
-          src={sliderImages[image]}
-          alt='Deep in Blue Band Image'
-          className='w-[100%] h-[100%]'
-        />
+        <LazyLoad>
+          <motion.img
+            key={image}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1 } }}
+            exit={{ opacity: 0, transition: { duration: 1 } }}
+            src={sliderImages[image]}
+            alt='Deep in Blue Band Image'
+            className='w-[100%] h-[100%]'
+          />
+        </LazyLoad>
       </AnimatePresence>
     </div>
   )

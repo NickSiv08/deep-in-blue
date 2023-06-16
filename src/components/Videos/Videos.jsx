@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Videos = () => {
   return (
-    <div className='xl:mx-96 mt-32 flex flex-col gap-12 video-container'>
+    <div className='xl:mx-96 mt-32 flex flex-col gap-12 video-container pb-12 border-b-[1px] border-gray-300'>
       <h1 className='my-12 text-6xl font-thin tracking-widest text-center'>
         Videos
       </h1>

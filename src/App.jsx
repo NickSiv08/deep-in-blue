@@ -4,7 +4,9 @@ import HomePage from './pages/HomePage'
 import VideosPage from './pages/VideosPage'
 import Footer from './components/Footer/Footer'
 import AboutPage from './pages/AboutPage'
-import ServicesPage from './pages/ServicesPage'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import ContactPage from './pages/ContactPage'
 
 const App = () => {
   return (
@@ -21,9 +23,10 @@ const App = () => {
           }
         />
         <Route path='/about' element={<AboutPage />} />
-        <Route path='/services' element={<ServicesPage />} />
+        <Route path='/contact' element={<ContactPage />} />
       </Routes>
       <Footer />
+      <ToastContainer position='top-right' />
     </Router>
   )
 }

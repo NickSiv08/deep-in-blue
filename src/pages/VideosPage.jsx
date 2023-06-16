@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 
 const VideosPage = () => {
   return (
-    <div className='my-40 xl:mx-96 mt-32 flex flex-col gap-12 video-container'>
-      <h1 className='my-12 text-6xl font-thin tracking-widest text-center'>
+    <div className='mt-16 mb-40 xl:mx-96 flex flex-col gap-12 video-container'>
+      <h1 className='my-12 text-4xl md:text-6xl font-thin tracking-widest text-center'>
         Videos
       </h1>
       <motion.iframe

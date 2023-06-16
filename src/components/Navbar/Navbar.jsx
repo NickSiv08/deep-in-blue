@@ -76,21 +76,6 @@ const Navbar = () => {
                 position: 'relative',
                 top: 50,
               }}
-              animate={{ opacity: 1, top: 0, transition: { duration: 0.8 } }}
-              className='w-[60%] text-center'
-            >
-              <Link to='/services' className=''>
-                <p className='text-lg hover:text-gray-600 tracking-widest border-b-[1px] border-black py-4'>
-                  Services
-                </p>
-              </Link>
-            </motion.div>
-            <motion.div
-              initial={{
-                opacity: 0,
-                position: 'relative',
-                top: 50,
-              }}
               animate={{ opacity: 1, top: 0, transition: { duration: 1 } }}
               className='w-[60%] text-center'
             >
@@ -149,16 +134,6 @@ const Navbar = () => {
               }`}
             >
               About
-            </p>
-          </Link>
-          <Link to='/services'>
-            <p
-              className={`text-sm hover:text-gray-600 tracking-widest ${
-                highlightIfActive('/services') &&
-                'border-b-[1px] pb-2 border-black'
-              }`}
-            >
-              Services
             </p>
           </Link>
           <Link to='/videos'>

@@ -19,8 +19,10 @@ const AboutPage = () => {
         alt='Deep in Blue Band'
       />
       <div className='mt-16 flex flex-col items-center gap-12'>
-        <h1 className='text-4xl tracking-widest'>About Us</h1>
-        <div className='space-y-12 mx-4 md:mx-32 2xl:mx-96 text-center md:text-justify p-8 rounded-xl bg-[#D6D3BB]'>
+        <h1 className='text-4xl md:text-6xl font-thin tracking-widest'>
+          About Us
+        </h1>
+        <div className='space-y-12 mx-4 md:mx-32 2xl:mx-96 text-center md:text-justify p-8 bg-[#D6D3BB] p-4'>
           <p className='text-lg font-light'>
             “Deep in Blue” is a band that consists of musicians who have been
             performing for years in the island of Santorini. Each of them has an

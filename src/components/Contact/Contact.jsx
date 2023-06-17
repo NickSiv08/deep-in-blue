@@ -42,7 +42,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='mx-24 xl:mx-48 mt-32 flex flex-col lg:flex-row gap-24 lg:gap-80'>
+    <div className='mx-8 xl:mx-32 mt-32 flex flex-col lg:flex-row gap-24 lg:gap-80'>
       <div className='flex flex-col gap-6 items-center justify-center'>
         <h1 className='text-3xl sm:text-4xl md:text-5xl font-thin tracking-widest text-center'>
           Get in Touch

@@ -42,9 +42,9 @@ const Contact = () => {
   }
 
   return (
-    <div className='mx-4 sm:mx-24 xl:mx-48 mt-32 flex flex-col lg:flex-row gap-24 lg:gap-80'>
+    <div className='mx-24 xl:mx-48 mt-32 flex flex-col lg:flex-row gap-24 lg:gap-80'>
       <div className='flex flex-col gap-6 items-center justify-center'>
-        <h1 className='text-5xl font-thin tracking-widest text-center'>
+        <h1 className='text-3xl sm:text-4xl md:text-5xl font-thin tracking-widest text-center'>
           Get in Touch
         </h1>
         <p className='text-gray-400'>deepinblueband@gmail.com</p>
@@ -59,7 +59,7 @@ const Contact = () => {
               id='name'
               type='text'
               placeholder='Enter your name'
-              className='py-2 px-12 border-[1px] border-gray-300 bg-[#F7F6EF] text-center w-full'
+              className='py-2 px-12 border-[1px] border-gray-300 bg-[#F7F6EF] text-center'
               required
               onChange={(e) => {
                 setName(e.target.value)

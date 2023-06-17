@@ -14,7 +14,7 @@ const Slider = () => {
   }, [])
 
   return (
-    <div className='mt-16 border-[2px] border-black mx-4 sm:mx-24 xl:mx-96 w-[98%] md:w-[70%] lg:w-[60%] h-[100%]'>
+    <div className='mt-16 border-[2px] border-black mx-4 sm:mx-24 xl:mx-96 h-[100%]'>
       <AnimatePresence mode='wait'>
         <motion.img
           key={image}

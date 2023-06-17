@@ -52,7 +52,7 @@ const Contact = () => {
       </div>
       <div className=''>
         <form onSubmit={onSubmit} className='space-y-6'>
-          <div className='flex flex-col gap-1 w-full'>
+          <div className='flex flex-col gap-1'>
             <label htmlFor='name'>Name</label>
             <input
               name='name'
@@ -95,7 +95,7 @@ const Contact = () => {
           </div>
           <button
             type='submit'
-            className='bg-black text-white py-3 px-4 tracking-widest w-full rounded-lg'
+            className='bg-black text-white py-3 px-8 tracking-widest rounded-lg'
           >
             Submit
           </button>

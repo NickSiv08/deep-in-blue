@@ -16,7 +16,7 @@ const HomePage = () => {
         animate={{ opacity: 1, top: 0 }}
       >
         <h1 className='title text-4xl md:text-6xl font-extrabold text-[#0E1F58]]'>
-          DEEP IN BLUES
+          DEEP IN BLUE
         </h1>
       </motion.div>
       <motion.div

@@ -25,7 +25,7 @@ const HomePage = () => {
       >
         <p className='caption text-gray-500 text-[17px] md:text-[19px] text-center tracking-widest mt-8'>
           <TypeAnimation
-            sequence={['A journey into the deep blue colors of Aegean']}
+            sequence={['Asn unforgettable guitar journey']}
             speed={30}
           />
         </p>

@@ -24,29 +24,31 @@ const AboutPage = () => {
         </h1>
         <div className='space-y-12 mx-4 md:mx-32 2xl:mx-96 text-center md:text-justify p-8 bg-[#D6D3BB] p-4'>
           <p className='text-lg font-light'>
-            “Deep in Blue” is a band that consists of musicians who have been
-            performing for years in the island of Santorini. Each of them has an
-            individual solo career and has been influenced by classical studies
-            and by the sounds of greek,mediterranean and balkan culture.{' '}
+            Live Guitar Music for Unforgettable Moments Versatile.. Soulful..
+            Unique..{' '}
           </p>
           <p className='text-lg font-light'>
-            Moreover they have gained a lot of experience in playing many genres
-            such as pop,rock,jazz and electronic music. They decided to combine
-            all these different impacts and create a band to express themselves
-            and offer their audience a unique way of entertainment.
+            Are you looking to elevate your event with live music that blends
+            elegance, energy, and emotion?
           </p>
           <p className='text-lg font-light'>
-            Greek ethnic music meets classical and electric guitars,wind
-            instruments and traditional greek string instruments,harmonically
-            blended with electronic beats. The result is a performance that
-            consistently alternates between “lounge” and “upbeat” music based on
-            exceptional popular greek compositions,as well as,melodies created
-            by the band.
+            I'm a professional guitarist specializing in live performances for
+            weddings, private events, and special occasions. My repertoire
+            features unique arrangements of rock, pop, and funk classics, as
+            well as melodic journeys through Greek, Balkan, and Mediterranean
+            traditions. I also offer swing-inspired covers and reimagined songs
+            with electronic textures—crafted to create an atmosphere that’s both
+            stylish and deeply memorable.
           </p>
           <p className='text-lg font-light'>
-            “Strong” and “dark” rhythms,jazzy harmonies,relaxing melodic lines
-            and “fusion” solos lead to a music journey into the deep blue colors
-            of Aegean..
+            Whether you're walking down the aisle, celebrating a milestone, or
+            hosting an intimate gathering, I provide a personalized musical
+            experience tailored to your vision. You can even request a specific
+            song to accompany your most cherished moment—I’ll make it truly
+            yours.
+          </p>
+          <p className='text-lg font-light'>
+            Let’s create the perfect soundtrack for your special day.
           </p>
         </div>
       </div>
